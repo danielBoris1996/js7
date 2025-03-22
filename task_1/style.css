@@ -1,0 +1,51 @@
+body {
+    padding: 80px;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+li {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.button {
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.button-add {
+    background-color: #29c354;
+}
+
+.button-add:hover {
+    background-color: #16883c;
+}
+
+.button-search {
+    background-color: #2971c3;
+}
+
+.button-search:hover {
+    background-color: #3550aa;
+}
+
+.books {
+    list-style: none;
+}
+
+.foundItem {
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+}
